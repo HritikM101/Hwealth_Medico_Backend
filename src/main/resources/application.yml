@@ -5,9 +5,9 @@ spring:
         column_ordering_strategy:  legacy
     show-sql:  true
     hibernate:
-      ddl-auto:  update
+      ddl-auto:  create
   datasource:
-    url:  jdbc:mysql://localhost:3306/hwealth_insurance
+    url:  jdbc:mysql://localhost:3306/hwealth_Medico
     username:  root
     password:  mysql
     driver-class-name:   com.mysql.cj.jdbc.Driver 

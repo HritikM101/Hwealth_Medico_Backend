@@ -26,7 +26,7 @@ import com.hwealth.service.ProductsService;
 
 @RestController
 @RequestMapping("/products")
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("http://localhost:3000/")
 public class ProductsController {
 
 	@Autowired

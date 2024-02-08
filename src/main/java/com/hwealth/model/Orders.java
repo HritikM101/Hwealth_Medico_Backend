@@ -17,6 +17,8 @@ public class Orders {
 	@Id
 	@GeneratedValue
 	private long id;
+	@ManyToOne
+	private User user;
 	private double amount;	
 	@ManyToOne(cascade=CascadeType.ALL)
 	private Address address;
